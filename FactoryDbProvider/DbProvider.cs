@@ -15,7 +15,7 @@ namespace FactoryDbProvider
         {
             var providerName = "PersonRepository.SQLServer";
 
-            Assembly assembly = Assembly.LoadFrom(@"C:\Users\Furkan\source\repos\ReflectionExample\PersonRepository.SQLServer\bin\Debug\PersonRepository.SQLServer.dll");
+            Assembly assembly = Assembly.LoadFrom(@"C:\Users\Furkan\Documents\GitHub\Reflection\PersonRepository.SQLServer\bin\Debug\PersonRepository.SQLServer.dll");
 
             return (IRepository)assembly.CreateInstance(providerName + "." + "SqlRepository");
         }
