@@ -11,13 +11,13 @@ namespace FactoryDbProvider
 {
     public static class Provider
     {
-        public static IPersonRepository GetDbProvider()
+        public static IRepository GetDbProvider()
         {
             var providerName = "PersonRepository.SQLServer";
 
             Assembly assembly = Assembly.LoadFrom(@"C:\Users\Furkan\source\repos\ReflectionExample\PersonRepository.SQLServer\bin\Debug\PersonRepository.SQLServer.dll");
 
-            return (IPersonRepository)assembly.CreateInstance(providerName + "." + "SqlRepository");
+            return (IRepository)assembly.CreateInstance(providerName + "." + "SqlRepository");
         }
     }
 }

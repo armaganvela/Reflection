@@ -44,10 +44,6 @@
     <Compile Include="SqlRepository.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PeopleViewer.SharedObjects\PeopleViewer.SharedObjects.csproj">
-      <Project>{102168A0-A328-41C7-A966-2CC4A82C2846}</Project>
-      <Name>PeopleViewer.SharedObjects</Name>
-    </ProjectReference>
     <ProjectReference Include="..\PersonRepository.Interface\PersonRepository.Interface.csproj">
       <Project>{6e82da7a-a40e-4208-b782-a4667c20ebf2}</Project>
       <Name>PersonRepository.Interface</Name>

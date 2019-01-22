@@ -44,10 +44,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PeopleViewer.SharedObjects\PeopleViewer.SharedObjects.csproj">
-      <Project>{102168a0-a328-41c7-a966-2cc4a82c2846}</Project>
-      <Name>PeopleViewer.SharedObjects</Name>
-    </ProjectReference>
     <ProjectReference Include="..\PersonRepository.Interface\PersonRepository.Interface.csproj">
       <Project>{6e82da7a-a40e-4208-b782-a4667c20ebf2}</Project>
       <Name>PersonRepository.Interface</Name>

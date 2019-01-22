@@ -53,10 +53,6 @@
       <Project>{e7721617-b9d9-45b9-bd3c-fb83c5719457}</Project>
       <Name>FactoryDbProvider</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PeopleViewer.SharedObjects\PeopleViewer.SharedObjects.csproj">
-      <Project>{102168a0-a328-41c7-a966-2cc4a82c2846}</Project>
-      <Name>PeopleViewer.SharedObjects</Name>
-    </ProjectReference>
     <ProjectReference Include="..\PersonRepository.Interface\PersonRepository.Interface.csproj">
       <Project>{6e82da7a-a40e-4208-b782-a4667c20ebf2}</Project>
       <Name>PersonRepository.Interface</Name>

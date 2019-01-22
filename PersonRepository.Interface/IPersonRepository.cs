@@ -1,5 +1,4 @@
-﻿using PeopleViewer.SharedObjects;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -8,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PersonRepository.Interface
 {
-    public interface IPersonRepository
+    public interface IRepository
     {
         TBusinessEntity Add<TBusinessEntity>(TBusinessEntity data) where TBusinessEntity : class, new();
         TBusinessEntity Delete<TBusinessEntity>(TBusinessEntity data) where TBusinessEntity : class, new();

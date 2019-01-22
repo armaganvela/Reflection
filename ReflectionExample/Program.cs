@@ -1,5 +1,4 @@
 ﻿using FactoryDbProvider;
-using PeopleViewer.SharedObjects;
 using PersonRepository.Interface;
 using System;
 using System.Collections.Generic;
@@ -13,7 +12,7 @@ namespace ReflectionExample
     {
         static void Main(string[] args)
         {
-            IPersonRepository personRepository = Provider.GetDbProvider();
+            IRepository personRepository = Provider.GetDbProvider();
         }
     }
 }

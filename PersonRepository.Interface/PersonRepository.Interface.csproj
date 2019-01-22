@@ -43,11 +43,5 @@
     <Compile Include="IPersonRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\PeopleViewer.SharedObjects\PeopleViewer.SharedObjects.csproj">
-      <Project>{102168a0-a328-41c7-a966-2cc4a82c2846}</Project>
-      <Name>PeopleViewer.SharedObjects</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

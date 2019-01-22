@@ -1,5 +1,4 @@
-﻿using PeopleViewer.SharedObjects;
-using PersonRepository.Interface;
+﻿using PersonRepository.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace PersonRepository.Oracle
 {
-    public class OracleRepository : IPersonRepository
+    public class OracleRepository : IRepository
     {
         public TBusinessEntity Add<TBusinessEntity>(TBusinessEntity data) where TBusinessEntity : class, new()
         {
