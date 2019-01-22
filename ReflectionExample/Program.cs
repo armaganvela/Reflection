@@ -14,8 +14,6 @@ namespace ReflectionExample
         static void Main(string[] args)
         {
             IPersonRepository personRepository = Provider.GetDbProvider();
-
-            personRepository.Add(new Person() { });
         }
     }
 }
